@@ -74,9 +74,9 @@ MapFun <- function(country,
 par(mar=c(0,0,0,0))
 par(oma=c(0,0,0,0))
 
-MapFun(country = "spain", 
+MapFun(country = "turkey", 
        level = 2,
-       keep = FALSE,
+       keep = TRUE,
        border="black",
        #fill = TRUE,
        col = "white",
