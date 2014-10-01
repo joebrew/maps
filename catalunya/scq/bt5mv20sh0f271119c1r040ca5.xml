@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- MetaD Ver. 3.0.5 Infraestructura de Dades Espacials de Catalunya (IDEC)-->
+<!-- Date: 28/02/2011 Time: 09:00:00-->
+<?xml-stylesheet type='text/xsl' href='ISO19139.xsl'?>
+<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gmd="http://www.isotc211.org/2005/gmd" xsi:schemaLocation="http://www.isotc211.org/2005/gco http://idec.icc.cat/schema/gco/gco.xsd http://www.isotc211.org/2005/gmd http://idec.icc.cat/schema/gmd/gmd.xsd" id="ID0001">
+   <fileIdentifier>
+      <gco:CharacterString>bt5mv20sh0f271119c1r040ca5</gco:CharacterString>
+   </fileIdentifier>
+
+   <language>
+      <gco:CharacterString>ca</gco:CharacterString>
+   </language>
+
+   <characterSet>
+      <MD_CharacterSetCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="8859part1" />
+   </characterSet>
+
+   <hierarchyLevel>
+      <MD_ScopeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="dataset" />
+   </hierarchyLevel>
+
+   <contact>
+      <CI_ResponsibleParty>
+         <organisationName>
+            <gco:CharacterString>Institut Cartogràfic de Catalunya (ICC)</gco:CharacterString>
+         </organisationName>
+
+         <contactInfo>
+            <CI_Contact>
+               <phone>
+                  <CI_Telephone>
+                     <voice>
+                        <gco:CharacterString>+34 93 567 15 00</gco:CharacterString>
+                     </voice>
+
+                     <facsimile>
+                        <gco:CharacterString>+34 93 567 15 67</gco:CharacterString>
+                     </facsimile>
+                  </CI_Telephone>
+               </phone>
+
+               <address>
+                  <CI_Address>
+                     <deliveryPoint>
+                        <gco:CharacterString>Parc de Montjuïc</gco:CharacterString>
+                     </deliveryPoint>
+
+                     <city>
+                        <gco:CharacterString>Barcelona</gco:CharacterString>
+                     </city>
+
+                     <postalCode>
+                        <gco:CharacterString>E-08038</gco:CharacterString>
+                     </postalCode>
+
+                     <electronicMailAddress>
+                        <gco:CharacterString>centre.atencio@icc.cat</gco:CharacterString>
+                     </electronicMailAddress>
+                  </CI_Address>
+               </address>
+
+               <onlineResource>
+                  <CI_OnlineResource>
+                     <linkage>
+                        <URL>http://www.icc.cat</URL>
+                     </linkage>
+
+                     <function>
+                        <CI_OnLineFunctionCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="information" />
+                     </function>
+                  </CI_OnlineResource>
+               </onlineResource>
+            </CI_Contact>
+         </contactInfo>
+
+         <role>
+            <CI_RoleCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="originator" />
+         </role>
+      </CI_ResponsibleParty>
+   </contact>
+
+   <dateStamp>
+      <gco:Date>2011-12-20</gco:Date>
+   </dateStamp>
+
+   <metadataStandardName>
+      <gco:CharacterString>ISO 19115:2003/Cor.1:2006 Geographic Information - Metadata</gco:CharacterString>
+   </metadataStandardName>
+
+   <metadataStandardVersion>
+      <gco:CharacterString>IS</gco:CharacterString>
+   </metadataStandardVersion>
+
+   <spatialRepresentationInfo>
+      <MD_VectorSpatialRepresentation>
+         <topologyLevel>
+            <MD_TopologyLevelCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="fullPlanarGraph" />
+         </topologyLevel>
+
+         <geometricObjects>
+            <MD_GeometricObjects>
+               <geometricObjectType>
+                  <MD_GeometricObjectTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="curve" />
+               </geometricObjectType>
+            </MD_GeometricObjects>
+         </geometricObjects>
+
+         <geometricObjects>
+            <MD_GeometricObjects>
+               <geometricObjectType>
+                  <MD_GeometricObjectTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="point" />
+               </geometricObjectType>
+            </MD_GeometricObjects>
+         </geometricObjects>
+
+         <geometricObjects>
+            <MD_GeometricObjects>
+               <geometricObjectType>
+                  <MD_GeometricObjectTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="surface" />
+               </geometricObjectType>
+            </MD_GeometricObjects>
+         </geometricObjects>
+      </MD_VectorSpatialRepresentation>
+   </spatialRepresentationInfo>
+
+   <referenceSystemInfo>
+      <MD_ReferenceSystem id="ID0002">
+         <referenceSystemIdentifier>
+            <RS_Identifier>
+               <code>
+                  <gco:CharacterString>EPSG:25831 - ETRS89 / UTM zone 31N</gco:CharacterString>
+               </code>
+            </RS_Identifier>
+         </referenceSystemIdentifier>
+      </MD_ReferenceSystem>
+   </referenceSystemInfo>
+
+   <identificationInfo>
+      <MD_DataIdentification id="ID0003">
+         <citation>
+            <CI_Citation>
+               <title>
+                  <gco:CharacterString>Base topogràfica de Catalunya 1:5 000 - Full "els Ferriols" (271119)</gco:CharacterString>
+               </title>
+
+               <date>
+                  <CI_Date>
+                     <date>
+                        <gco:Date>1995-09-01</gco:Date>
+                     </date>
+
+                     <dateType>
+                        <CI_DateTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="creation" />
+                     </dateType>
+                  </CI_Date>
+               </date>
+
+               <date>
+                  <CI_Date>
+                     <date>
+                        <gco:Date>2001-05-01</gco:Date>
+                     </date>
+
+                     <dateType>
+                        <CI_DateTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="revision" />
+                     </dateType>
+                  </CI_Date>
+               </date>
+               <date>
+                  <CI_Date>
+                     <date>
+                        <gco:Date>2006-05-01</gco:Date>
+                     </date>
+
+                     <dateType>
+                        <CI_DateTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="revision" />
+                     </dateType>
+                  </CI_Date>
+               </date>
+               <date>
+                  <CI_Date>
+                     <date>
+                        <gco:Date>2011-04-01</gco:Date>
+                     </date>
+
+                     <dateType>
+                        <CI_DateTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="revision" />
+                     </dateType>
+                  </CI_Date>
+               </date>
+
+               <date>
+                  <CI_Date>
+                     <date>
+                        <gco:Date>2011-12-01</gco:Date>
+                     </date>
+
+                     <dateType>
+                        <CI_DateTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="publication" />
+                     </dateType>
+                  </CI_Date>
+               </date>
+
+               <edition>
+                  <gco:CharacterString>4</gco:CharacterString>
+               </edition>
+
+               <identifier>
+                  <MD_Identifier>
+                     <code>
+                        <gco:CharacterString>271119</gco:CharacterString>
+                     </code>
+                  </MD_Identifier>
+               </identifier>
+
+               <citedResponsibleParty>
+                  <CI_ResponsibleParty>
+                     <organisationName>
+                        <gco:CharacterString>Institut Cartogràfic de Catalunya (ICC)</gco:CharacterString>
+                     </organisationName>
+
+                     <contactInfo>
+                        <CI_Contact>
+                           <phone>
+                              <CI_Telephone>
+                                 <voice>
+                                    <gco:CharacterString>+34 93 567 15 00</gco:CharacterString>
+                                 </voice>
+
+                                 <facsimile>
+                                    <gco:CharacterString>+34 93 567 15 67</gco:CharacterString>
+                                 </facsimile>
+                              </CI_Telephone>
+                           </phone>
+
+                           <address>
+                              <CI_Address>
+                                 <deliveryPoint>
+                                    <gco:CharacterString>Parc de Montjuïc</gco:CharacterString>
+                                 </deliveryPoint>
+
+                                 <city>
+                                    <gco:CharacterString>Barcelona</gco:CharacterString>
+                                 </city>
+
+                                 <postalCode>
+                                    <gco:CharacterString>E-08038</gco:CharacterString>
+                                 </postalCode>
+
+                                 <electronicMailAddress>
+                                    <gco:CharacterString>centre.atencio@icc.cat</gco:CharacterString>
+                                 </electronicMailAddress>
+                              </CI_Address>
+                           </address>
+
+                           <onlineResource>
+                              <CI_OnlineResource>
+                                 <linkage>
+                                    <URL>http://www.icc.cat</URL>
+                                 </linkage>
+
+                                 <function>
+                                    <CI_OnLineFunctionCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="information" />
+                                 </function>
+                              </CI_OnlineResource>
+                           </onlineResource>
+                        </CI_Contact>
+                     </contactInfo>
+
+                     <role>
+                        <CI_RoleCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="originator" />
+                     </role>
+                  </CI_ResponsibleParty>
+               </citedResponsibleParty>
+
+               <presentationForm>
+                  <CI_PresentationFormCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="mapDigital" />
+               </presentationForm>
+
+               <series>
+                  <CI_Series>
+                     <name>
+                        <gco:CharacterString>Base topogràfica de Catalunya 1:5 000 (BT-5M) v2.0</gco:CharacterString>
+                     </name>
+
+                     <issueIdentification>
+                        <gco:CharacterString>1.0</gco:CharacterString>
+                     </issueIdentification>
+                  </CI_Series>
+               </series>
+
+               <otherCitationDetails>
+                  <gco:CharacterString>Les especificacions tècniques de la base estan constituïdes pels documents "Especificacions tècniques de la Base topogràfica de Catalunya 1:5 000 (BT-5M) v2.0", "Diccionari de dades de la Base topogràfica de Catalunya 1:5 000 (BT-5M) v2.0" i el d'especificacions de format d'implementació, que es cita a l'apartat "Passos de procés" d'aquesta metadada. Tots ells es poden descarregar del Web de l'ICC (http://www.icc.cat).</gco:CharacterString>
+               </otherCitationDetails>
+            </CI_Citation>
+         </citation>
+
+         <abstract>
+            <gco:CharacterString>Base topogràfica que recobreix tot el territori de Catalunya, compilada en 2.5 dimensions. Recull dades relatives al relleu, la hidrografia, les vies de comunicació, el poblament i les infraestructures auxiliars, la toponímia, els punts de referència i un conjunt reduït de cobertes del sòl i vegetació. L'escala de referència és 1:5 000.</gco:CharacterString>
+         </abstract>
+
+         <purpose>
+            <gco:CharacterString>Base de referència útil per al desenvolupament d'activitats tècniques, de gestió i de planificació territorial.</gco:CharacterString>
+         </purpose>
+
+         <status>
+            <MD_ProgressCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="completed" />
+         </status>
+
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+                  <gco:CharacterString>el Gaià</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>la Banya</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Pont dels Ferriols</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>els Ferriols</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Bellprat</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Santa Coloma de Queralt</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Anoia</gco:CharacterString>
+               </keyword>
+               <keyword>
+                  <gco:CharacterString>Conca de Barberà</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Catalunya</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Espanya</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Europa</gco:CharacterString>
+               </keyword>
+
+               <type>
+                  <MD_KeywordTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="place" />
+               </type>
+            </MD_Keywords>
+         </descriptiveKeywords>
+
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+                  <gco:CharacterString>2010</gco:CharacterString>
+               </keyword>
+
+               <type>
+                  <MD_KeywordTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="temporal" />
+               </type>
+            </MD_Keywords>
+         </descriptiveKeywords>
+
+         <descriptiveKeywords>
+			<MD_Keywords>
+               <keyword>
+                  <gco:CharacterString>Altimetria</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Elevació</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Relleu</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Orografia</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Planimetria</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Hidrografia</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Poblament</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Edificació</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Construcció</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Infraestructura</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Via de comunicació</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Carretera</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Ferrocarril</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Vegetació</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Coberta del sòl</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Toponímia</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Punt de referència</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Vèrtex geodèsic</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Base topogràfica</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Cartografia topogràfica</gco:CharacterString>
+               </keyword>
+
+               <type>
+                  <MD_KeywordTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="theme" />
+               </type>
+            </MD_Keywords>
+         </descriptiveKeywords>
+
+         <resourceConstraints>
+            <MD_LegalConstraints id="ID0004">
+               <accessConstraints>
+                  <MD_RestrictionCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="copyright" />
+               </accessConstraints>
+
+               <accessConstraints>
+                  <MD_RestrictionCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="intellectualPropertyRights" />
+               </accessConstraints>
+
+               <useConstraints>
+                  <MD_RestrictionCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="license" />
+               </useConstraints>
+
+               <useConstraints>
+                  <MD_RestrictionCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="intellectualPropertyRights" />
+               </useConstraints>
+
+               <useConstraints>
+                  <MD_RestrictionCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="otherRestictions" />
+               </useConstraints>
+
+               <otherConstraints>
+                  <gco:CharacterString>La llicència d'ús de les dades elaborades per l'ICC, en qualsevol suport, s'entén atorgada únicament al sol·licitant, de manera personal, revocable, puntual, no exclusiva i intransferible, condicionada en tot moment al compliment de les clàusules que es detallen a l'apartat "Condicions d'ús" al Web de l'ICC. El sol·licitant no adquireix cap títol, dret o interès sobre la informació cedida, podent-la destinar únicament al seu ús personal o al de l'empresa a la que representa, per aquelles activitats directament relacionades amb el seu objecte social.</gco:CharacterString>
+               </otherConstraints>
+            </MD_LegalConstraints>
+         </resourceConstraints>
+
+         <spatialRepresentationType>
+            <MD_SpatialRepresentationTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="vector" />
+         </spatialRepresentationType>
+
+         <spatialResolution>
+            <MD_Resolution>
+               <equivalentScale>
+                  <MD_RepresentativeFraction>
+                     <denominator>
+                        <gco:Integer>5000</gco:Integer>
+                     </denominator>
+                  </MD_RepresentativeFraction>
+               </equivalentScale>
+            </MD_Resolution>
+         </spatialResolution>
+
+         <language>
+            <gco:CharacterString>ca</gco:CharacterString>
+         </language>
+
+         <characterSet>
+            <MD_CharacterSetCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="8859part1" />
+         </characterSet>
+
+         <topicCategory>
+            <MD_TopicCategoryCode>elevation</MD_TopicCategoryCode>
+         </topicCategory>
+
+         <topicCategory>
+            <MD_TopicCategoryCode>imageryBaseMapsEarthCover</MD_TopicCategoryCode>
+         </topicCategory>
+
+         <topicCategory>
+            <MD_TopicCategoryCode>inlandWaters</MD_TopicCategoryCode>
+         </topicCategory>
+
+         <topicCategory>
+            <MD_TopicCategoryCode>location</MD_TopicCategoryCode>
+         </topicCategory>
+
+         <topicCategory>
+            <MD_TopicCategoryCode>oceans</MD_TopicCategoryCode>
+         </topicCategory>
+
+         <topicCategory>
+            <MD_TopicCategoryCode>structure</MD_TopicCategoryCode>
+         </topicCategory>
+
+         <topicCategory>
+            <MD_TopicCategoryCode>transportation</MD_TopicCategoryCode>
+         </topicCategory>
+
+         <topicCategory>
+            <MD_TopicCategoryCode>utilitiesCommunication</MD_TopicCategoryCode>
+         </topicCategory>
+
+         <extent>
+            <EX_Extent>
+               <temporalElement>
+                  <EX_TemporalExtent>
+                     <extent>
+                        <gml:TimePeriod gml:id="id001">
+                           <gml:begin>
+                              <gml:TimeInstant gml:id="id002">
+                                 <gml:timePosition>2010-06-01</gml:timePosition>
+                              </gml:TimeInstant>
+                           </gml:begin>
+
+                           <gml:end>
+                              <gml:TimeInstant gml:id="id003">
+                                 <gml:timePosition>2010-06-01</gml:timePosition>
+                              </gml:TimeInstant>
+                           </gml:end>
+                        </gml:TimePeriod>
+                     </extent>
+                  </EX_TemporalExtent>
+               </temporalElement>
+
+               <verticalElement>
+                  <EX_VerticalExtent>
+                     <minimumValue>
+                        <gco:Real>612.3</gco:Real>
+                     </minimumValue>
+
+                     <maximumValue>
+                        <gco:Real>811.7</gco:Real>
+                     </maximumValue>
+
+                     <verticalCRS>
+                        <gml:VerticalCRS gml:id="_">
+                           <gml:identifier codeSpace="_">EPSG:5782</gml:identifier>
+
+                           <gml:scope>not known</gml:scope>
+
+                           <gml:verticalCS />
+
+                           <gml:verticalDatum />
+                        </gml:VerticalCRS>
+                     </verticalCRS>
+                  </EX_VerticalExtent>
+               </verticalElement>
+
+               <geographicElement>
+                  <EX_GeographicBoundingBox>
+                     <westBoundLongitude>
+                        <gco:Decimal>1.395900</gco:Decimal>
+                     </westBoundLongitude>
+
+                     <eastBoundLongitude>
+                        <gco:Decimal>1.437569</gco:Decimal>
+                     </eastBoundLongitude>
+
+                     <southBoundLatitude>
+                        <gco:Decimal>41.520861</gco:Decimal>
+                     </southBoundLatitude>
+
+                     <northBoundLatitude>
+                        <gco:Decimal>41.541694</gco:Decimal>
+                     </northBoundLatitude>
+                  </EX_GeographicBoundingBox>
+               </geographicElement>
+            </EX_Extent>
+         </extent>
+
+         <supplementalInformation>
+            <gco:CharacterString>La unitat de distribució espacial de la base, és a dir, la superfície de terreny coberta per cada full, coincideix amb la subdivisió 8x8 del Mapa Topográfico Nacional 1:50 000 (MTN). Les coordenades de les cantonades són les definides per al sistema de referència ED50 i s'expressen en el sistema de referència de coordenades de les dades. L'extensió horitzontal de les dades es descriu en aquestes metadades en coordenades geogràfiques, amb la longitud i latitud mínima i màxima de les cantonades del full 1:5 000. És, per tant, un àmbit geogràfic aproximat. L'extensió vertical es refereix a altituds del terreny. L'extensió temporal es refereix a les dates del vol o vols a partir dels que s'ha actualitzat la cartografia. Durant el període de transició establert al Reial Decret 1071/2007 per passar del sistema de referència ED50 al sistema ETRS89, la cartografia estarà disponible en ambdós sistemes.</gco:CharacterString>
+         </supplementalInformation>
+      </MD_DataIdentification>
+   </identificationInfo>
+
+   <distributionInfo>
+      <MD_Distribution>
+         <distributor>
+            <MD_Distributor>
+               <distributorContact>
+                  <CI_ResponsibleParty>
+                     <organisationName>
+                        <gco:CharacterString>Institut Cartogràfic de Catalunya (ICC)</gco:CharacterString>
+                     </organisationName>
+
+                     <contactInfo>
+                        <CI_Contact>
+                           <phone>
+                              <CI_Telephone>
+                                 <voice>
+                                    <gco:CharacterString>+34 93 567 15 00</gco:CharacterString>
+                                 </voice>
+
+                                 <facsimile>
+                                    <gco:CharacterString>+34 93 567 15 67</gco:CharacterString>
+                                 </facsimile>
+                              </CI_Telephone>
+                           </phone>
+
+                           <address>
+                              <CI_Address>
+                                 <deliveryPoint>
+                                    <gco:CharacterString>Parc de Montjuïc</gco:CharacterString>
+                                 </deliveryPoint>
+
+                                 <city>
+                                    <gco:CharacterString>Barcelona</gco:CharacterString>
+                                 </city>
+
+                                 <postalCode>
+                                    <gco:CharacterString>E-08038</gco:CharacterString>
+                                 </postalCode>
+
+                                 <electronicMailAddress>
+                                    <gco:CharacterString>centre.atencio@icc.cat</gco:CharacterString>
+                                 </electronicMailAddress>
+                              </CI_Address>
+                           </address>
+
+                           <onlineResource>
+                              <CI_OnlineResource>
+                                 <linkage>
+                                    <URL>http://www.icc.cat</URL>
+                                 </linkage>
+
+                                 <function>
+                                    <CI_OnLineFunctionCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="information" />
+                                 </function>
+                              </CI_OnlineResource>
+                           </onlineResource>
+                        </CI_Contact>
+                     </contactInfo>
+
+                     <role>
+                        <CI_RoleCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="owner" />
+                     </role>
+                  </CI_ResponsibleParty>
+               </distributorContact>
+
+               <distributionOrderProcess>
+                  <MD_StandardOrderProcess>
+                     <fees>
+                        <gco:CharacterString>Informació digital gratuïta; còpia en CD i DVD segons tarifes vigents.</gco:CharacterString>
+                     </fees>
+
+                     <orderingInstructions>
+                        <gco:CharacterString>El producte es pot obtenir per via telemàtica tal i com s'indica a l'apartat "Opcions de transferència" d'aquestes metadades i també es pot adquirir als centres d'atenció al públic especificats al Web de l'ICC. A més del format indicat, es distribueix també en altres formats vectorials i la seva representació simbolitzada en formats d'imatge i PDF, així com en paper a escala 1:5 000. Per a més informació referent als formats disponibles es pot consultar les especificacions tècniques o el Web de l'ICC.</gco:CharacterString>
+                     </orderingInstructions>
+                  </MD_StandardOrderProcess>
+               </distributionOrderProcess>
+
+               <distributorFormat>
+                  <MD_Format>
+                     <name>
+                        <gco:CharacterString>SHP</gco:CharacterString>
+                     </name>
+
+                     <version>
+                        <gco:CharacterString>-</gco:CharacterString>
+                     </version>
+                  </MD_Format>
+               </distributorFormat>
+
+               <distributorTransferOptions>
+                  <MD_DigitalTransferOptions>
+                     <unitsOfDistribution>
+                        <gco:CharacterString>Full</gco:CharacterString>
+                     </unitsOfDistribution>
+
+                     <onLine>
+                        <CI_OnlineResource>
+                           <linkage>
+                              <URL>http://www.icc.cat</URL>
+                           </linkage>
+
+                           <protocol>
+                              <gco:CharacterString>http</gco:CharacterString>
+                           </protocol>
+
+                           <name>
+                              <gco:CharacterString>Consulta i descàrrega de mapes</gco:CharacterString>
+                           </name>
+
+                           <description>
+                              <gco:CharacterString>Descàrrega de dades per fulls mitjançant recerca directa sobre un fons cartogràfic continu on es pot triar el lloc, el producte i el format.</gco:CharacterString>
+                           </description>
+
+                           <function>
+                              <CI_OnLineFunctionCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="download" />
+                           </function>
+                        </CI_OnlineResource>
+                     </onLine>
+
+                     <offLine>
+                        <MD_Medium>
+                           <name>
+                              <MD_MediumNameCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="dvd" />
+                           </name>
+                        </MD_Medium>
+                     </offLine>
+                  </MD_DigitalTransferOptions>
+               </distributorTransferOptions>
+            </MD_Distributor>
+         </distributor>
+      </MD_Distribution>
+   </distributionInfo>
+
+   <dataQualityInfo>
+      <DQ_DataQuality>
+         <scope>
+            <DQ_Scope>
+               <level>
+                  <MD_ScopeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="series" />
+               </level>
+            </DQ_Scope>
+         </scope>
+
+         <lineage>
+            <LI_Lineage>
+               <statement>
+                  <gco:CharacterString>Les dades de la base s'obtenen per restitució fotogramètrica. Es verifica el compliment dels paràmetres de qualitat establerts per a aquesta base a les especificacions tècniques: exactitud posicional, exactitud temàtica, consistència lògica i completesa.</gco:CharacterString>
+               </statement>
+
+               <processStep>
+                  <LI_ProcessStep>
+                     <description>
+                        <gco:CharacterString>Actualització per restitució fotogramètrica.</gco:CharacterString>
+                     </description>
+
+                     <source>
+                        <LI_Source>
+                           <description>
+                              <gco:CharacterString>Fotografies aèries que proporcionen recobriment estereoscòpic vertical de la zona a cartografiar.</gco:CharacterString>
+                           </description>
+
+                           <sourceCitation>
+                              <CI_Citation>
+                                 <title>
+                                    <gco:CharacterString>Vol fotogramètric</gco:CharacterString>
+                                 </title>
+
+                                 <date>
+                                    <CI_Date>
+                                       <date>
+                                          <gco:Date>2010-06-01</gco:Date>
+                                       </date>
+
+                                       <dateType>
+                                          <CI_DateTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="creation" />
+                                       </dateType>
+                                    </CI_Date>
+                                 </date>
+
+                                 <presentationForm>
+                                    <CI_PresentationFormCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="imageDigital" />
+                                 </presentationForm>
+                              </CI_Citation>
+                           </sourceCitation>
+                        </LI_Source>
+                     </source>
+                  </LI_ProcessStep>
+               </processStep>
+
+               <processStep>
+                  <LI_ProcessStep>
+                     <description>
+                        <gco:CharacterString>Incorporació i revisió de la toponímia.</gco:CharacterString>
+                     </description>
+
+                     <source>
+                        <LI_Source>
+                           <description>
+                              <gco:CharacterString>Base de dades que conté el recull de camp dut a terme per l'ICC entre els anys 1984 i 1995 i les seves posteriors revisions i actualitzacions.</gco:CharacterString>
+                           </description>
+
+                           <sourceCitation>
+                              <CI_Citation>
+                                 <title>
+                                    <gco:CharacterString>Base de dades de topònims de l'ICC</gco:CharacterString>
+                                 </title>
+
+                                 <date>
+                                    <CI_Date>
+                                       <date>
+                                          <gco:Date>2011-04-01</gco:Date>
+                                       </date>
+
+                                       <dateType>
+                                          <CI_DateTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="revision" />
+                                       </dateType>
+                                    </CI_Date>
+                                 </date>
+
+                                 <presentationForm>
+                                    <CI_PresentationFormCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="tableDigital" />
+                                 </presentationForm>
+                              </CI_Citation>
+                           </sourceCitation>
+                        </LI_Source>
+                     </source>
+                  </LI_ProcessStep>
+               </processStep>
+
+               <processStep>
+                  <LI_ProcessStep>
+                     <description>
+                        <gco:CharacterString>Incorporació dels vèrtexs geodèsics.</gco:CharacterString>
+                     </description>
+
+                     <source>
+                        <LI_Source>
+                           <description>
+                              <gco:CharacterString>Selecció dels vèrtexs geodèsics del Servei de Posicionament Geodèsic Integrat de Catalunya.</gco:CharacterString>
+                           </description>
+
+                           <sourceCitation>
+                              <CI_Citation>
+                                 <title>
+                                    <gco:CharacterString>Servei de Posicionament Geodèsic Integrat de Catalunya</gco:CharacterString>
+                                 </title>
+
+                                 <alternateTitle>
+                                    <gco:CharacterString>SPGIC</gco:CharacterString>
+                                 </alternateTitle>
+
+                                 <date>
+                                    <CI_Date>
+                                       <date>
+                                          <gco:Date>2007-02-15</gco:Date>
+                                       </date>
+
+                                       <dateType>
+                                          <CI_DateTypeCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="publication" />
+                                       </dateType>
+                                    </CI_Date>
+                                 </date>
+
+                                 <presentationForm>
+                                    <CI_PresentationFormCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml" codeListValue="tableDigital" />
+                                 </presentationForm>
+                              </CI_Citation>
+                           </sourceCitation>
+                        </LI_Source>
+                     </source>
+                  </LI_ProcessStep>
+               </processStep>
+
+               <processStep>
+                  <LI_ProcessStep>
+                     <description>
+                        <gco:CharacterString>Control de qualitat (verificació dels paràmetres de qualitat establerts per a la base). </gco:CharacterString>
+                     </description>
+                  </LI_ProcessStep>
+               </processStep>
+
+               <processStep>
+                  <LI_ProcessStep>
+                     <description>
+                        <gco:CharacterString>Transformació de les dades d'ED50 a ETRS89. Es realitza utilitzant la metodologia i paràmetres aprovats per la Comissió de Coordinació Cartogràfica de Catalunya (CCCC). Es pot trobar al Web de la Comissió, http://www.cccartografica.cat.</gco:CharacterString>
+                     </description>
+                  </LI_ProcessStep>
+               </processStep>
+
+               <processStep>
+                  <LI_ProcessStep>
+                     <description>
+                        <gco:CharacterString>Transformació de les dades al model de dades d'implementació especificat per al format SHP.</gco:CharacterString>
+                     </description>
+
+                     <source>
+                        <LI_Source>
+                           <description>
+                              <gco:CharacterString>Document que descriu la implementació del model de dades per al format SHP: "Especificacions per al format 'ESRI Shapefile' (SHP) de la Base topogràfica de Catalunya 1:5 000 (BT-5M) v2.0". Es pot descarregar del Web de l'ICC (http://www.icc.cat).</gco:CharacterString>
+                           </description>
+                        </LI_Source>
+                     </source>
+                  </LI_ProcessStep>
+               </processStep>
+            </LI_Lineage>
+         </lineage>
+      </DQ_DataQuality>
+   </dataQualityInfo>
+</MD_Metadata>
+
