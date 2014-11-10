@@ -51,27 +51,27 @@ gadm <- function(country = "USA",
                  actual_country, level))
 }
 
-# Try a few countries and levels, to see what you get
-gadm("france")
-gadm("haiti", 2)
-gadm("shmaiti", 1)
-gadm("congo", 1)
-gadm("morococococo", 1)
-gadm("Democratic Republic of yo mama", 1)
-gadm("united states of america", 1)
-gadm("CANTada", 1)
-# Clearly, the name-matching isn't perfect
-gadm("russia, the motherland")
-gadm("argentina", 1)
-
-# Add a few of these countries to world map
-par(mar = c(0,0,0,0))
-map("world")
-plot(france2, col = "red", add = TRUE, border = FALSE)
-plot(morocco1, col = "blue", add = TRUE, border = FALSE)
-plot(unitedstates1, col = sample(rainbow(nrow(unitedstates1)),
-                                 nrow(unitedstates1)),
-     border = FALSE, add = TRUE)
-plot(canada1, col = sample(rainbow(nrow(canada1)),
-                                 nrow(canada1)),
-     border = FALSE, add = TRUE)
+# # Try a few countries and levels, to see what you get
+# gadm("france")
+# gadm("haiti", 2)
+# gadm("shmaiti", 1)
+# gadm("congo", 1)
+# gadm("morococococo", 1)
+# gadm("Democratic Republic of yo mama", 1)
+# gadm("united states of america", 1)
+# gadm("CANTada", 1)
+# # Clearly, the name-matching isn't perfect
+# gadm("russia, the motherland")
+# gadm("argentina", 1)
+# 
+# # Add a few of these countries to world map
+# par(mar = c(0,0,0,0))
+# map("world")
+# plot(france2, col = "red", add = TRUE, border = FALSE)
+# plot(morocco1, col = "blue", add = TRUE, border = FALSE)
+# plot(unitedstates1, col = sample(rainbow(nrow(unitedstates1)),
+#                                  nrow(unitedstates1)),
+#      border = FALSE, add = TRUE)
+# plot(canada1, col = sample(rainbow(nrow(canada1)),
+#                                  nrow(canada1)),
+#      border = FALSE, add = TRUE)
